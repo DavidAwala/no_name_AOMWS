@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structural Design Calculation Sheet</title>
+
+    <!-- Fonts: Inter (Header) and Kalam (Handwriting) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Kalam:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- KaTeX for Math Rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+    <!-- html2pdf.js for robust PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="printout.css">
+</head>
+
+<body>
+
+    <!-- UI Controls (No Print) -->
+    <div class="no-print ui-bar">
+        <button onclick="window.print()" class="btn-print">Print Selected Range</button>
+        <span id="chunk-controls" style="display:none;">
+            | Range:
+            <select id="chunk-select" onchange="updateChunkFilter()"></select>
+        </span>
+        <button onclick="toggleEdit()" class="btn-edit">Toggle Edit Mode</button>
+        <button onclick="addImage()" class="btn-add-img no-print">Add Image</button>
+        <span class="status" id="load-status">Loading Data...</span>
+    </div>
+
+    <div class="print-job" id="report-container">
+        <!-- Pages will be injected here by JS -->
+    </div>
+
+    <!-- Templates -->
+    <template id="page-template">
+        <div class="page a4">
+            <div class="header">
+                <div class="project-title">PROJECT: <span contenteditable="true">Residential Building</span></div>
+                <div class="sheet-meta">
+                    <div>Designed By: <span contenteditable="true">Eng. User</span></div>
+                    <div>Date: <span id="date-field">2025-01-01</span></div>
+                    <div>Sheet: <span class="sheet-num">1</span></div>
+                </div>
+            </div>
+
+            <div class="calc-grid-header">
+                <div class="col-header">Ref</div>
+                <div class="col-header">Calculations</div>
+                <div class="col-header">Output</div>
+            </div>
+
+            <div class="calc-body">
+                <!-- Rows go here -->
+            </div>
+
+            <div class="footer">
+                BS 8110 Structural Analysis & Design
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="printout.js"></script>
+</body>
+
+</html>

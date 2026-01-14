@@ -1,0 +1,1539 @@
+{
+  "source_pdf": {
+    "filename": "WorkedExamplestoBS8110-min.pdf",
+    "extracted_on": "2026-01-10",
+    "notes": [
+      "References were extracted by scanning the PDF text for tokens like 'Table x', 'Section x', 'Clause x', and 'Fig x'.",
+      "Because the PDF is a scanned/converted document in places, some contexts may be truncated; each reference includes a short context snippet and the pages where it appeared."
+    ]
+  },
+  "examples": [
+    {
+      "example_no": 1,
+      "page_range": {
+        "start": 8,
+        "end": 8
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            8
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            8
+          ],
+          "context": "rade 35 for concrete is to be used. It is recommended that the beam breadth match the wall thickness, b = 250 mm so that b = 250 mm Loading Section 3.2.1.2.2 Assume 15 KN for the self-weight of the beam F = 311 KN Ultimate Load F = 1.4 x (150 + 15) + 1.6 x 50 = 311 KN Therefore maximum shear = 15",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            8
+          ],
+          "context": "3 KN/m Bending 𝑊×𝐿2 51.83×62 Maximum moment = = = 233.25 KN.m 8 8 M = 233.25 The case with no compression steel will be considered, So KN.m Section 3.4.4.4 𝑀 233.25×106 < .156, < .156, ∴d > 414 mm 𝑏𝑑2𝑓 250× 𝑑2×35 𝑐𝑢 For mild conditions of exposure, the cover = 20 mm. so for 8 mm Table 3.3, 3.4",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            8
+          ],
+          "context": ", 3.4 Cover = 20 mm links and 16 mm bars Overall depth h = d + 20 + 8 + 16/2 = 450 mm. take h = 500 mm, then d = 464 mm Shear 𝑉 155.5× 1000 Section 3.4.5.2 shear stress v = = = 1.34 N/𝑚𝑚2 𝑏×𝑑 250× 464 For C35 concrete, maximum v allowed = 0.8√35 = 4.73 N/mm2. Therefore v < 4.73 OK Shear OK Defl",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.3",
+          "raw": "Table 3.3",
+          "pages": [
+            8
+          ],
+          "context": "Section 3.4.4.4 𝑀 233.25×106 < .156, < .156, ∴d > 414 mm 𝑏𝑑2𝑓 250× 𝑑2×35 𝑐𝑢 For mild conditions of exposure, the cover = 20 mm. so for 8 mm Table 3.3, 3.4 Cover = 20 mm links and 16 mm bars Overall depth h = d + 20 + 8 + 16/2 = 450 mm. take h = 500 mm, then d = 464 mm Shear 𝑉 155.5× 1000",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            8
+          ],
+          "context": "stress v = = = 1.34 N/𝑚𝑚2 𝑏×𝑑 250× 464 For C35 concrete, maximum v allowed = 0.8√35 = 4.73 N/mm2. Therefore v < 4.73 OK Shear OK Deflection Table 3.9 6000 basic span−effective depth ratio = 464 = 12.93 < 20 OK Deflection OK ∴ A beam size of 250 mm by 500 mm deep would be suitable. 1",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 2,
+      "page_range": {
+        "start": 9,
+        "end": 10
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            9
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            9
+          ],
+          "context": "beam for bending and shear if grade 30 and 460 are to be used for concrete and all steel respectively. Take d = 550mm and b = 250mm Loading Section 3.2.1.2.2 Ultimate Load F = 1.4 x 30 + 1.6 x 10 = 58 KN/m F = 58 KN/m Bending 𝑊×𝐿2 58×52 Maximum moment = = = 181.25 KN.m 8 8 M = 181.25 KN.m 𝑀 181.2",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            9
+          ],
+          "context": "ate Load F = 1.4 x 30 + 1.6 x 10 = 58 KN/m F = 58 KN/m Bending 𝑊×𝐿2 58×52 Maximum moment = = = 181.25 KN.m 8 8 M = 181.25 KN.m 𝑀 181.25×106 Section 3.4.4.4 𝐾 = = =0.079< .156 𝑏𝑑2𝑓 250×5502×30 𝑐𝑢 ∴ No compression reinforcement is required 𝐾 𝑧=𝑑{0.5+√(0.25− )} 0.9 z = 0.903d = 496.5 mm Z = 496.5",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            9
+          ],
+          "context": "𝑦 𝑧 0.95×460×496.5 Provide 3T20, area provided 942.6 mm2 Provide 3T20 Shear 𝑊×𝐿 maximum design shear load = = 58×5/2 = 145 KN 2 𝑉 145×1000 Section 3.4.5.2 shear stress 𝑣 = = =1.05 N/mm2 <0.8√30 𝑣 =1.05 𝑁/𝑚𝑚 𝑏×𝑑 250×550 shear links at distance d from face of support V = 145-58x0.55 = 113.1 KN 𝑉",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            10
+          ],
+          "context": "span-effective depth ratio = = 9.1 550 basic ratio for simply supported rectangular beam = 20 modification factor for tension reinforcement Table 3.10 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×836 𝑓 = ∗ = =407.98 𝑠 3𝐴 𝛽 3×942.6 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 181.25×106 𝑏𝑑2 = 250×5502 =2.4 (477−𝑓) modification factor = 0.55+ 𝑠 ≤2.",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.7",
+          "raw": "Table 3.7",
+          "pages": [
+            10
+          ],
+          "context": "400 4 ( ) =( ) =0.923 (𝑠ℎ𝑜𝑢𝑙𝑑 𝑛𝑜𝑡 𝑏𝑒 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑡 𝑜𝑛𝑒) 𝑑 550 𝑓 1/3 𝑐𝑢 ( ) =1.05 25 ∴ 𝑣 𝑐 =0.51 𝑁/𝑚𝑚2 v c =0.51N/mm2 𝐴 𝑏(𝑣−𝑣 ) 250×(0.954−0.51) Table 3.7 𝑆𝑉 = 𝑐 = =0.254 𝑆 𝑉 0.95𝑓 𝑦𝑣 0.95×460 Provide T8 at 200 mm c/c 𝐴 2×50.3 𝑆𝑉 = =0.5 𝑂𝐾 𝑆 𝑉 200 Deflection Table 3.9 5000 basic span-effective",
+          "inferred_purpose": "Deflection control guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            9
+          ],
+          "context": "upport V = 145-58x0.55 = 113.1 KN 𝑉 131.1×1000 shear stress 𝑣 = = =0.954 N/mm2 𝑏×𝑑 250×550 0.79 100𝐴 1/3 400 1/4 𝑓 1/3 𝑆 𝑐𝑢 𝑣 = ( ) ( ) ( ) Table 3.8 𝑐 𝛾 𝑚 𝑏𝑑 𝑑 25 Only two 20 mm bars extent a distance d from the support face 2",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            10
+          ],
+          "context": "𝑏(𝑣−𝑣 ) 250×(0.954−0.51) Table 3.7 𝑆𝑉 = 𝑐 = =0.254 𝑆 𝑉 0.95𝑓 𝑦𝑣 0.95×460 Provide T8 at 200 mm c/c 𝐴 2×50.3 𝑆𝑉 = =0.5 𝑂𝐾 𝑆 𝑉 200 Deflection Table 3.9 5000 basic span-effective depth ratio = = 9.1 550 basic ratio for simply supported rectangular beam = 20 modification factor for tension re",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 3,
+      "page_range": {
+        "start": 11,
+        "end": 12
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            11
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            11
+          ],
+          "context": "1 including self-weight and imposed load 𝑄 = 15 KN/m. The concrete 𝐾 and steel grades are 30 and 460 respectively. Design the beam. Loading Section 3.2.1.2.2 F = 52 KN/m Ultimate Load F = 1.4 x 20 + 1.6 x 15 = 52 KN/m Bending 𝑊×𝐿2 52×82 Maximum moment = = = 416 KN.m M = 416 KN.m 8 8 Section 3.4.4",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            11
+          ],
+          "context": "ion 3.2.1.2.2 F = 52 KN/m Ultimate Load F = 1.4 x 20 + 1.6 x 15 = 52 KN/m Bending 𝑊×𝐿2 52×82 Maximum moment = = = 416 KN.m M = 416 KN.m 8 8 Section 3.4.4.4 𝑀 𝐾 = 𝑏𝑑2𝑓 𝑐𝑢 Table 3.3, 3.4 For mild conditions of exposure the cover = 20 mm. so for 8 mm links and 16 mm bars Overall depth h = d + 20 +",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            11
+          ],
+          "context": ".2 mm2 𝐾′𝑏𝑑2𝑓 0.156×250×5642×30 𝐴 = 𝑐𝑢 +𝐴 ′ = +190.25=2133.77 𝑚𝑚2 𝑆 0.95𝑓 𝑧 𝑆 0.95×460×438.2 𝑦 Provide 5T25, area provided 2454.5 mm2 Shear Section 3.4.5.2 𝑊×𝐿 maximum design shear load = = 52×8/2 = 208 KN 2 𝑉 208×1000 shear stress 𝑣 = 𝑏×𝑑 = 250×564 =1.475 N/mm2 < 0.8√30 OK 𝑣 =1.5 𝑁/𝑚𝑚2 4",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            12
+          ],
+          "context": "an-effective depth ratio = = 14.19 564 basic ratio for simply supported rectangular beam = 20 modification factor for tension reinforcement Table 3.10 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×836 𝑓 = ∗ = =266.6 𝑁/𝑚𝑚2 𝑠 3𝐴 𝛽 3×942.6 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 416×106 𝑏𝑑2 = 250×5642 =5.23 modification factor for tension reinfo",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.11",
+          "raw": "Table 3.11",
+          "pages": [
+            12
+          ],
+          "context": "dification factor for tension reinforcement: (477−𝑓) =0.55+ 𝑠 =0.836 ≤2 𝑀 120(0.9+ ) 𝑏𝑑2 Modification factor for compression reinforcement: Table 3.11 100𝐴 𝑆,𝑝𝑟𝑜𝑣 ′ =0.285 𝑏𝑑 Mod. Factor = 1.086 ∴ basic ratio = 20 x 0.836 x 1.086 = 18.15 Deflection OK actual ratio = 14.2 < basic ratio = 18",
+          "inferred_purpose": "Deflection control guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.3",
+          "raw": "Table 3.3",
+          "pages": [
+            11
+          ],
+          "context": "mate Load F = 1.4 x 20 + 1.6 x 15 = 52 KN/m Bending 𝑊×𝐿2 52×82 Maximum moment = = = 416 KN.m M = 416 KN.m 8 8 Section 3.4.4.4 𝑀 𝐾 = 𝑏𝑑2𝑓 𝑐𝑢 Table 3.3, 3.4 For mild conditions of exposure the cover = 20 mm. so for 8 mm links and 16 mm bars Overall depth h = d + 20 + 8 + 16/2 = 600 mm. d =",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.7",
+          "raw": "Table 3.7",
+          "pages": [
+            12
+          ],
+          "context": "( ) =( ) =0.923 (𝑠ℎ𝑜𝑢𝑙𝑑 𝑛𝑜𝑡 𝑏𝑒 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑡 𝑜𝑛𝑒) 𝑑 550 𝑓 𝑐𝑢 1/3 ( ) =1.0626 25 ∴ 𝑣 =0.687 𝑁/𝑚𝑚2 v c =0.687N/mm2 𝑐 𝐴 𝑏(𝑣−𝑣 ) 250×(1.267−0.687) Table 3.7 𝑆𝑉 = 𝑐 = =0.33 𝑆 𝑉 0.95𝑓 𝑦𝑣 0.95×460 Provide T8 at 200 mm c/c 𝐴 𝑆𝑉 2×50.3 = =0.5 𝑂𝐾 𝑆 𝑉 200 Deflection Table 3.9 8000 basic span-effective",
+          "inferred_purpose": "Deflection control guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            12
+          ],
+          "context": "rtment-UofK shear links at d from face of support V = 208- 52 x 0.565 = 178.67 KN 𝑉 178.67×1000 shear stress𝑣 = = = 1.267 N/mm2 𝑏×𝑑 250×564 Table 3.8 0.79 100𝐴 𝑆 1/3 400 1/4 𝑓 𝑐𝑢 1/3 𝑣 = ( ) ( ) ( ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 Only three 25 mm bars extent a distance d from the support face 1 1 100𝐴 𝑆 3",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            12
+          ],
+          "context": "𝑏(𝑣−𝑣 ) 250×(1.267−0.687) Table 3.7 𝑆𝑉 = 𝑐 = =0.33 𝑆 𝑉 0.95𝑓 𝑦𝑣 0.95×460 Provide T8 at 200 mm c/c 𝐴 𝑆𝑉 2×50.3 = =0.5 𝑂𝐾 𝑆 𝑉 200 Deflection Table 3.9 8000 basic span-effective depth ratio = = 14.19 564 basic ratio for simply supported rectangular beam = 20 modification factor for tension",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 4,
+      "page_range": {
+        "start": 13,
+        "end": 15
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            13
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            13
+          ],
+          "context": "sverse direction. Design the beam for bending and shear if grade 30 and 460 are to be used for concrete and all steel respectively. Loading Section 3.2.1.2.2 Ultimate Load F = 1.4 x 80 + 1.6 x 60 = 208 KN/m Total ultimate load on a span = 208 x 6 = 1248 KN F = 1248 KN As the loading is uniformly",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "section",
+          "id": "3.4.1.5",
+          "raw": "Section 3.4.1.5",
+          "pages": [
+            13
+          ],
+          "context": "an of 1st and 3rd spans - design as T section Table 3.5 Maximum moment = 0.09 𝐹𝑙 = 0.09 x 1248 x 6 = 673.92 KN.m M = 673.92 KN.m 0.7×𝐿 6000 Section 3.4.1.5 Effective width of flange = 𝑏 + =250+0.7× =1090 𝑚𝑚 𝑤 5 5 For mild conditions of exposure, the cover = 20 mm. so for 10 mm Table 3.3, 3.4 li",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            14
+          ],
+          "context": "Mohamed Elhassan-Civil Engineering Department-UofK The neutral axis lies in the flange. 𝑀 673.92×106 𝐾 = = =0.155<0.156 Section 3.4.4.4 𝑏𝑑2𝑓 250×7602×30 𝑐𝑢 𝐾 𝑧=𝑑{0.5+√(0.25− )} 0.9 z = 0.779d = 591.95 mm Z = 591.95 mm 𝑀 673.92×106 𝐴 𝑆 = 0.95𝑓 𝑧 = 0.95×460×591.95 =2605.2 𝑚𝑚2",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            14
+          ],
+          "context": "a provided 3217 mm2 (Top steel for interior support) Shear Table 3.5 maximum design shear load = 0.6 𝐹 = 1248 x 0.6 = 748.8 KN 𝑉 748.8×1000 Section 3.4.5.2 shear stress 𝑣 = = =3.95 N/mm2 < 0.8√30 OK 𝑏×𝑑 250×760 7",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "1",
+          "raw": "Table 1",
+          "pages": [
+            13
+          ],
+          "context": "the spans are 𝐾 𝐾 equal, the coefficients in the table below may be used to calculate the design ultimate bending moments and shear forces. Table 1 Design ultimate bending moments and shear forces At outer Near At first At middle At interior support middle of interior of interior suppor",
+          "inferred_purpose": "Moment coefficients / redistribution reference"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            15
+          ],
+          "context": "𝑆𝑉 = =1.57 𝑂𝐾 𝑆 100 𝑉 Deflection Table 3.9 6000 basic span-effective depth ratio = = 7.9 760 basic ratio for continuous flanged beam = 20.8 Table 3.10 modification factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×2605.2 𝑓 𝑠 = 3𝐴 ∗ 𝛽 = 3×2945 =271.3 𝑁/𝑚𝑚2 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 673.92×106 = =4.667",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.3",
+          "raw": "Table 3.3",
+          "pages": [
+            13
+          ],
+          "context": "0 Section 3.4.1.5 Effective width of flange = 𝑏 + =250+0.7× =1090 𝑚𝑚 𝑤 5 5 For mild conditions of exposure, the cover = 20 mm. so for 10 mm Table 3.3, 3.4 links and 20 mm bars Overall depth h = d + 20 + 10 + 20/2 = 800 mm. d = 760 mm d = 760 mm The moment of resistance of the concrete onl",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.5",
+          "raw": "Table 3.5",
+          "pages": [
+            13,
+            14
+          ],
+          "context": "moments and shear forces At outer Near At first At middle At interior support middle of interior of interior support end span support span Table 3.5 Moment 0 0.09Fl - 0.11Fl 0.07Fl -0.08Fl Shear 0.45F __ 0.6F __ 0.55F NOTE l is the effective span; F is the total design ultimate load (1.4",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.7",
+          "raw": "Table 3.7",
+          "pages": [
+            15
+          ],
+          "context": ", 𝑏𝑑 250×760 1 1 400 4 400 4 ( ) =( ) =0.85 (𝑠ℎ𝑜𝑢𝑙𝑑 𝑛𝑜𝑡 𝑏𝑒 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑡 𝑜𝑛𝑒) 𝑑 760 𝑓 1/3 ( 𝑐𝑢 ) =1.0626 25 ∴ 𝑣 𝑐 =0.679 𝑁/𝑚𝑚2 v c =0.68 N/mm2 Table 3.7 𝐴 𝑏(𝑣−𝑣 ) 250×(3.1−0.68) 𝑆𝑉 = 𝑐 = =1.38 𝑆 0.95𝑓 0.95×460 𝑉 𝑦𝑣 Provide T10 at 100 mm c/c T10 at 100 𝐴 2×78.54 𝑆𝑉 = =1.57 𝑂𝐾 𝑆 100 𝑉 Deflecti",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            15
+          ],
+          "context": "Mohamed Elhassan-Civil Engineering Department-UofK shear links shear at d from face of support= 748.8- 208 x 0.76 = 590.72 KN 𝑉 590.72×1000 Table 3.8 shear stress 𝑣 = = =3.1 N/mm2 𝑣 =3.1 𝑁/𝑚𝑚2 𝑏 ∗ 𝑑 250×760 0.79 100𝐴 𝑆 1/3 400 1/4 𝑓 𝑐𝑢 1/3 𝑣 = ( ) ( ) ( ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 Only four 25 mm bar",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            15
+          ],
+          "context": "𝑏(𝑣−𝑣 ) 250×(3.1−0.68) 𝑆𝑉 = 𝑐 = =1.38 𝑆 0.95𝑓 0.95×460 𝑉 𝑦𝑣 Provide T10 at 100 mm c/c T10 at 100 𝐴 2×78.54 𝑆𝑉 = =1.57 𝑂𝐾 𝑆 100 𝑉 Deflection Table 3.9 6000 basic span-effective depth ratio = = 7.9 760 basic ratio for continuous flanged beam = 20.8 Table 3.10 modification factor for tension",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 5,
+      "page_range": {
+        "start": 16,
+        "end": 17
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            16
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            16
+          ],
+          "context": "w. from: BS8110-1 Design the beam for bending and shear if grade 30 and 460 are to be used for concrete and all steel respectively. Loading Section 3.2.1.2.2 Ultimate Load F = 1.4 x 1400 + 1.6 x 10000 = 3560 KN F = 3560 KN Shear stress not to exceed 4 N/mm2 (avoid reinforcement congestion). Take",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            16
+          ],
+          "context": "∴d= = =1483.33 𝑚𝑚 𝑣𝑏 4×600 Take overall depth = 1600 mm (d = 1500) Bending Maximum moment = 3560 x 1.5 = 5340 KN.m M = 5340 KN.m 𝑀 5340×106 Section 3.4.4.4 𝐾 = = =0.132< .156 𝑏𝑑2𝑓 600×15002×30 𝑐𝑢 ∴ No compression reinforcement is required 𝐾 𝑧=𝑑{0.5+√(0.25− )} 0.9 z = 0.821d = 1232 mm Z = 1232 m",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            17
+          ],
+          "context": "𝑆𝑉 4×113.1 = =5.03 𝑂𝐾 𝑆 90 𝑉 Deflection Table 3.9 basic span-effective depth ratio = 1500 = 1.0 1500 basic ratio for cantilever beam = 5.6 Table 3.10 modification factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×9919 𝑓 𝑠 = 3𝐴 × 𝛽 = 3×10053 =302.58 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 5340×106 = =3.95 𝑏𝑑2 600×",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.7",
+          "raw": "Table 3.7",
+          "pages": [
+            17
+          ],
+          "context": "3, 𝑏𝑑 600×1500 1 1 400 4 400 4 ( ) =( ) =0.719 (𝑠ℎ𝑜𝑢𝑙𝑑 𝑛𝑜𝑡 𝑏𝑒 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑡 𝑜𝑛𝑒) 𝑑 1500 𝑓 𝑐𝑢 1/3 ( ) =1.05 25 ∴ 𝑣 =0.69 𝑁/𝑚𝑚2 𝑐 v =0.69 N/mm2 c Table 3.7 𝐴 𝑆𝑉 𝑏(𝑣−𝑣 𝑐 ) 600×(4−0.69) = = =4.5446 𝑆 𝑉 0.95𝑓 𝑦𝑣 0.95×460 Provide 4 Legs T12 at 90 mm c/c 𝐴 𝑆𝑉 4×113.1 = =5.03 𝑂𝐾 𝑆 90 𝑉 Deflection Tab",
+          "inferred_purpose": "Deflection control guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            16
+          ],
+          "context": "a provided 10053 mm2 Provide 8T40 Shear at distance d from face of support V = 3560 KN shear stress 𝑣 = 4 N/mm2 0.79 100𝐴 1/3 400 1/4 𝑓 1/3 Table 3.8 𝑣 = ( 𝑆 ) ( ) ( 𝑐𝑢 ) 𝑐 𝛾 𝑚 𝑏𝑑 𝑑 25 9",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            17
+          ],
+          "context": "3.7 𝐴 𝑆𝑉 𝑏(𝑣−𝑣 𝑐 ) 600×(4−0.69) = = =4.5446 𝑆 𝑉 0.95𝑓 𝑦𝑣 0.95×460 Provide 4 Legs T12 at 90 mm c/c 𝐴 𝑆𝑉 4×113.1 = =5.03 𝑂𝐾 𝑆 90 𝑉 Deflection Table 3.9 basic span-effective depth ratio = 1500 = 1.0 1500 basic ratio for cantilever beam = 5.6 Table 3.10 modification factor for tension reinfor",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 6,
+      "page_range": {
+        "start": 18,
+        "end": 19
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            18
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            18
+          ],
+          "context": "vely. Design the slab. 6000 6000 6000 6000 Basic span-effective depth ratio = 26 6000 =230.76 𝑚𝑚, 𝑇𝑟𝑦 𝑠𝑙𝑎𝑏 𝑜𝑣𝑒𝑟𝑎𝑙𝑙 𝑑𝑒𝑝𝑡ℎ =250 𝑚𝑚 26 Loading Section 3.2.1.2.2 Ultimate Load F = 1.4x(1.5+0.25x24) +1.6x2.5 = 14.5 KN/m/m F = 14.5 KN/m/m Total ultimate load on a span = 14.5 x 6 = 87 KN As the area of",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            18
+          ],
+          "context": "conditions of exposure the cover = 20 mm. so for 10 mm links and 20 mm bars Overall depth h = d + 20 + 16/2 = 250 mm. d = 222 mm d = 222 mm Section 3.4.4.4 𝑀 45×106 𝐾 = = =0.03 𝑏𝑑2𝑓 1000×2222×30 𝑐𝑢 11",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            19
+          ],
+          "context": "𝑆 provide T10 at 200 mm centres, area provided 393 mm2/m Shear maximum design shear load = 0.6 𝐹 = 87×0.6 = 52.2 KN Table 3.12 𝑉 52.2×1000 Section 3.4.5.2 shear stress 𝑣 = = =0.235 N/mm2 < 0.8√30 OK 𝑏×𝑑 1000×222 shear at d from face of support= 52.2- 14.5 x 0.22 = 49 KN 𝑉 49 ∗ 1000 shear stres",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "1",
+          "raw": "Table 1",
+          "pages": [
+            18
+          ],
+          "context": "does not exceed 5 KN/m2, the coefficients in the table below may be used to calculate the design ultimate bending moments and shear forces. Table 1 Design ultimate bending moments and shear forces End support/slab connection At first middle interior Simple Continuous interior interior s",
+          "inferred_purpose": "Moment coefficients / redistribution reference"
+        },
+        {
+          "type": "table",
+          "id": "3.12",
+          "raw": "Table 3.12",
+          "pages": [
+            18,
+            19
+          ],
+          "context": "ultimate bending moments and shear forces End support/slab connection At first middle interior Simple Continuous interior interior support Table 3.12 At outer Near At outer Near support spans support middle support middle of end of end span span Moment 0 0.086Fl - 0.04Fl 0.075Fl - 0.086Fl",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.3",
+          "raw": "Table 3.3",
+          "pages": [
+            18
+          ],
+          "context": "F is the total design ultimate load (1.4Gk + 1.6Qk). Bending Table 3.12 Maximum moment = 0.086 𝐹𝑙 = 0.086 x 87 x 6 = 44.9 KN.m M = 45 KN.m Table 3.3, 3.4 For mild conditions of exposure the cover = 20 mm. so for 10 mm links and 20 mm bars Overall depth h = d + 20 + 16/2 = 250 mm. d = 222",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            19
+          ],
+          "context": "support= 52.2- 14.5 x 0.22 = 49 KN 𝑉 49 ∗ 1000 shear stress 𝑣 = = =0.22 N/mm2 𝑣 =0.22𝑁/𝑚𝑚2 𝑏 ∗ 𝑑 1000∗222 0.79 100𝐴 1/3 400 1/4 𝑓 1/3 𝑆 𝑐𝑢 Table 3.8 𝑣 𝑐 = 𝛾 ( 𝑏𝑑 ) ( 𝑑 ) ( 25 ) 𝑚 100𝐴 𝑆 1 3 100×523 1 3 ∴( ) =( ) =0.618<3 , 𝑏𝑑 1000×222 1 1 400 4 400 4 ( ) =( ) =1.16 (𝑠ℎ𝑜𝑢𝑙𝑑 𝑛𝑜𝑡 𝑏𝑒 𝑙𝑒𝑠𝑠 𝑡ℎ",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            19
+          ],
+          "context": "is not required Deflection 6000 basic span-effective depth ratio = = 27, basic ratio = 26 222 modification factor for tension reinforcement Table 3.9 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×488 𝑓 = × = =286 𝑁/𝑚𝑚2 𝑠 3𝐴 𝛽 3×523 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 45×106 = =0.913 𝑏𝑑2 1000×2222 modification factor for tension reinforce",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 7,
+      "page_range": {
+        "start": 20,
+        "end": 21
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            20
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            20
+          ],
+          "context": "o be used for concrete and 𝐾 all steel respectively. Design the slab if the cover is equal to 25 mm. 𝑇𝑟𝑦 𝑠𝑙𝑎𝑏 𝑜𝑣𝑒𝑟𝑎𝑙𝑙 𝑑𝑒𝑝𝑡ℎ =250 𝑚𝑚 Loading Section 3.2.1.2.2 F = 18.5 KN/m2 Ultimate Load F = 1.4 x 7.5 + 1.6 x 5 = 18.5 KN/m2 Bending 𝒍 𝒚 =𝟏 𝒍 𝒙 Bending strength and deflection are usually the govern",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            20,
+            21
+          ],
+          "context": "M = -42.6 KN.m 𝑚 =𝛽 𝑛𝑙 2 =−0.047×18.5×72 =−42.6 𝐾𝑁.𝑚 𝑠𝑥 𝑠𝑥 𝑥 b = 1000 mm, d = 220 mm and 𝑓 =30 𝑁/𝑚𝑚2. d = 220 mm 𝑐𝑢 𝑀 42.6×106 𝐾 = = =0.03 Section 3.4.4.4 𝑏𝑑2𝑓 1000×2202×30 𝑐𝑢 𝑧=𝑑{0.5+√(0.25− 𝐾 )}, z = 0.95d = 209 mm Z = 209 mm 0.9 𝑀 42.6×106 𝐴 𝑆 = 0.95𝑓 𝑧 = 0.95×460×209 = 466.5 𝑚𝑚2/𝑚 𝑦 Provid",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            21
+          ],
+          "context": "ince v < v , shear reinforcement is not required c Deflection Table 3.9 7000 basic span-effective depth ratio = = 31.8 220 basic ratio = 26 Table 3.10 modification factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×357 𝑓 𝑠 = 3𝐴 ∗ 𝛽 = 3×393 =278.6 𝑁/𝑚𝑚2 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 32.6×106 = =0.674 𝑏𝑑2 1",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.14",
+          "raw": "Table 3.14",
+          "pages": [
+            20
+          ],
+          "context": "are usually the governing criteria in the design of slabs. The corner panel should be checked because the moments are larger in this panel. Table 3.14 𝛽 = −0.047 𝑎𝑛𝑑 𝛽 = 0.036 𝑠𝑥 𝑠𝑥 Maximum support moment: M = -42.6 KN.m 𝑚 =𝛽 𝑛𝑙 2 =−0.047×18.5×72 =−42.6 𝐾𝑁.𝑚 𝑠𝑥 𝑠𝑥 𝑥 b = 1000 mm, d = 220 mm",
+          "inferred_purpose": "Slab moment/shear coefficients"
+        },
+        {
+          "type": "table",
+          "id": "3.15",
+          "raw": "Table 3.15",
+          "pages": [
+            21
+          ],
+          "context": "= 209 mm Z = 209 mm 0.9 𝑀 32.6×106 𝐴 = = = 357 𝑚𝑚2/𝑚 𝑆 0.95𝑓 𝑧 0.95×460×209 𝑦 Provide T10 at 200 mm centres, area provided 393 mm2/m Shear Table 3.15 𝛽 = 0.40 𝑣𝑥 maximum shear load = 𝛽 𝑣𝑥 𝑛𝑙 𝑥 = 0.4 x 18.5 x 7 = 51.8KN/m width 𝑉 51.8×1000 shear stress 𝑣 = = =0.235 N/mm2 𝑏×𝑑 1000×220 100𝐴",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            21
+          ],
+          "context": "𝑣𝑥 maximum shear load = 𝛽 𝑣𝑥 𝑛𝑙 𝑥 = 0.4 x 18.5 x 7 = 51.8KN/m width 𝑉 51.8×1000 shear stress 𝑣 = = =0.235 N/mm2 𝑏×𝑑 1000×220 100𝐴 100×524 𝑆 Table 3.8 = =0.238 𝑏𝑑 1000×220 ∴ 𝑣 𝑐 =0.45 𝑁/𝑚𝑚2 𝑣 =0.45𝑁/𝑚𝑚2 Since v < v , shear reinforcement is not required c Deflection Table 3.9 7000 basic spa",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            21
+          ],
+          "context": "100𝐴 100×524 𝑆 Table 3.8 = =0.238 𝑏𝑑 1000×220 ∴ 𝑣 𝑐 =0.45 𝑁/𝑚𝑚2 𝑣 =0.45𝑁/𝑚𝑚2 Since v < v , shear reinforcement is not required c Deflection Table 3.9 7000 basic span-effective depth ratio = = 31.8 220 basic ratio = 26 Table 3.10 modification factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 8,
+      "page_range": {
+        "start": 22,
+        "end": 24
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            22
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            22
+          ],
+          "context": "0 are to be used 𝐾 for concrete and steel respectively. Design the slab if the cover is equal to 25 mm. 7000 =269 𝑚𝑚, 𝑠𝑎𝑦 300 𝑚𝑚 26 Loading Section 3.2.1.2.2 Ultimate Load F = 1.4 x (1.5 + 24 x 0.3) + 1.6 x 3 = 17 KN/m2 F = 17 KN/m2 Ultimate load per panel = 17 x 7 x 7 = 833 KN Bending As the are",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            23
+          ],
+          "context": "Mohamed Elhassan-Civil Engineering Department-UofK For Middle strip: b = 3500 mm, d = 260 mm and 𝑓 =30 𝑁/𝑚𝑚2. 𝑐𝑢 Section 3.4.4.4 𝑀 110×106 𝐾 = = =0.015 𝑏𝑑2𝑓 3500×2602×30 𝑐𝑢 𝑧=𝑑{0.5+√(0.25− 𝐾 )}, z = 0.95d = 247 mm 0.9 𝑀 110×106 𝐴 𝑆 = 0.95𝑓 𝑧 = 0.95×460×247 = 1020 𝑚𝑚2",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.5.2.3",
+          "raw": "Section 3.5.2.3",
+          "pages": [
+            22
+          ],
+          "context": "6 x 3 = 17 KN/m2 F = 17 KN/m2 Ultimate load per panel = 17 x 7 x 7 = 833 KN Bending As the area of each bay exceeds 30 m2, 𝑄𝐾 ≤1.25 and The Section 3.5.2.3 𝐺𝐾 characteristic imposed load does not exceed 5 KN/m2, the coefficients Section 3.7.2.7 in the table 3.12 BS8110 may be used to calculate",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.7.2.7",
+          "raw": "Section 3.7.2.7",
+          "pages": [
+            22
+          ],
+          "context": "e area of each bay exceeds 30 m2, 𝑄𝐾 ≤1.25 and The Section 3.5.2.3 𝐺𝐾 characteristic imposed load does not exceed 5 KN/m2, the coefficients Section 3.7.2.7 in the table 3.12 BS8110 may be used to calculate the design ultimate bending moments and shear forces. 1. First interior support: Table 3.",
+          "inferred_purpose": "Moment coefficients / redistribution reference"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            24
+          ],
+          "context": "2 > =1218 𝑚𝑚2 0.95𝑓 𝑦𝑣 Deflection at the centre of the span: Table 3.9 7000 basic span-effective depth ratio = = 26.93 260 basic ratio = 26 Table 3.10 modification factor for tension reinforcement 𝑓 = 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 ∗ 1 = 2×460×2233 =216.2 𝑁/𝑚𝑚2 𝑠 3𝐴 𝛽 3×3167.5 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 241×106 = =1.019 𝑏𝑑",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.12",
+          "raw": "Table 3.12",
+          "pages": [
+            22,
+            23,
+            24
+          ],
+          "context": "3.7.2.7 in the table 3.12 BS8110 may be used to calculate the design ultimate bending moments and shear forces. 1. First interior support: Table 3.12 𝑀 =−0.086𝐹𝐿 =−0.086×833×7=−501.5 𝐾𝑁.𝑚 Section 3.7.2.7 This moment may be reduced by 0.15Fh c Assume column 500 x 500 mm2 0.15 x 833 x 0.5 =",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            24
+          ],
+          "context": "3.12 𝑉 𝑒𝑓𝑓 = 1.15 𝑉 𝑡 =833×1.15=957.95 𝐾𝑁 Assume column 500 × 500 mm2 At column face: 𝑉 958×1000 𝑣 = 𝑒𝑓𝑓 = =1.84<0.8√𝑓 𝑢 ∗ 𝑑 4×500×260 𝑐𝑢 ° Table 3.8 100𝐴 100×3958 𝑆 = =0.435 𝑏𝑑 3500×260 ∴ 𝑣 =0.55 𝑁/𝑚𝑚2 𝑐 Punching shear perimeter u = (500 + 3×260) × 4 = 5120 mm 𝑉 958×1000 𝑁 𝑒𝑓𝑓 𝑣 = = =0.7",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            24
+          ],
+          "context": "95𝑓 0.95×460 𝑦𝑣 Provide 8 two legs T12 shear links. 0.4𝑢𝑑 Area provided 1810 mm2 > =1218 𝑚𝑚2 0.95𝑓 𝑦𝑣 Deflection at the centre of the span: Table 3.9 7000 basic span-effective depth ratio = = 26.93 260 basic ratio = 26 Table 3.10 modification factor for tension reinforcement 𝑓 = 2𝑓 𝑦 𝐴 𝑆,",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 9,
+      "page_range": {
+        "start": 25,
+        "end": 26
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            25
+          ],
+          "context": "bbed slab spanning in one direction. stated, all references are The characteristic dead load including self-weight is 𝐺 𝐾 = 4.5 KN/m2 from: BS 8110-1 and the characteristic live load is 𝑄 = 2.5 KN/m2. The effective span 𝐾 is 6m and Grade 30 and 460 are to be used for concrete and all st",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            25
+          ],
+          "context": "re to be used for concrete and all steel respectively. Design the slab considering a 0.5 m width of floor is supported by each rib. Loading Section 3.2.1.2.2 Ultimate Load = 1.4x4.5+1.6x2.5 = 10.3KN/m2 F = 10.3 KN/m2 Total UL on the span = 10.3x6x0.5 = 31 KN Bending 1. At mid-span: The maximum po",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            25
+          ],
+          "context": "mm. ∴ d = 244 mm d = 244 mm ℎ 𝑓 𝑀 =0.45𝑓 𝑏 ℎ (𝑑− )=0.45×30×500×80×(244−40)=110 𝐾𝑁.𝑚 𝑅 𝑐𝑢 𝑓 𝑓 2 ∴𝑁.𝐴. 𝑖𝑛 𝑓𝑙𝑎𝑛𝑔𝑒,𝑑𝑒𝑠𝑖𝑔𝑛 𝑎𝑠 𝑟𝑒𝑐𝑡𝑎𝑛𝑔𝑢𝑙𝑎𝑟 𝑠𝑒𝑐𝑖𝑜𝑛 Section 3.4.4.4 𝑀 14×106 𝐾 = = =0.0156 𝑏𝑑2𝑓 500×2442×30 𝑐𝑢 𝑧=𝑑{0.5+√(0.25− 𝐾 )}, z = 0.95d = 231.8 mm Z = 231.8 mm 0.9 𝑀 14×106 𝐴 𝑆 = 0.95𝑓 𝑧 = 0.95×460×23",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            26
+          ],
+          "context": "ication factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×138 𝑓 = ∗ = =269.55 𝑁/𝑚𝑚2 𝑠 3𝐴 𝛽 3×157 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 14×106 𝑏𝑑2 = 500×2442 =0.47 Table 3.10 modification factor for tension reinforcement = (477−𝑓) =0.55+ 𝑠 = 1.8≤2 𝑀 120(0.9+ ) 𝑏𝑑2 ∴ basic ratio = 20.8 x 1.8 = 37.44 Deflection OK",
+          "inferred_purpose": "Deflection control guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.12",
+          "raw": "Table 3.12",
+          "pages": [
+            25,
+            26
+          ],
+          "context": "10.3 KN/m2 Total UL on the span = 10.3x6x0.5 = 31 KN Bending 1. At mid-span: The maximum positive moment occurs near middle of end span, So Table 3.12 the max. moment = 0.075 𝐹𝑙 = 0.075 x 31 x 6 = 13.95 KN.m/rib M = 14 KN.m Assume the cover = 20 mm. so for 8 mm links and 16 mm bars Overall",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            26
+          ],
+          "context": "𝑑 150×244 0.79 100𝐴 1/3 400 1/4 𝑓 1/3 𝑣 = ( 𝑆 ) ( ) ( 𝑐𝑢 ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 Only four 25 mm bars extent a distance d from the support face 1 1 Table 3.8 ∴( 100𝐴 𝑆 ) 3 =( 100×157 ) 3 =0.754<3 , 𝑏𝑑 150×244 1 1 400 4 400 4 ( ) =( ) =1.13 (𝑠ℎ𝑜𝑢𝑙𝑑 𝑛𝑜𝑡 𝑏𝑒 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑡 𝑜𝑛𝑒) 𝑑 244 𝑓 1/3 𝑐𝑢 ( ) =1.0626",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            26
+          ],
+          "context": "𝑣 𝑐 =0.57 𝑁/𝑚𝑚2 𝑣 𝑐 =0.57 𝑚𝑚2 Since v < v , shear reinforcement is not required c Deflection 6000 basic span−effective depth ratio = =24.59 Table 3.9 244 basic ratio = 20.8 modification factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×138 𝑓 = ∗ = =269.55 𝑁/𝑚𝑚2 𝑠 3𝐴 𝛽 3×157 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 10,
+      "page_range": {
+        "start": 27,
+        "end": 28
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            27
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            27
+          ],
+          "context": "rete and all steel respectively. Design the slab for an internal panel considering a 0.5 m width of floor is supported by each rib. Loading Section 3.2.1.2.2 Ultimate Load n = 1.4 x 5 + 1.6 x 2.5 = 11 KN/m2 n = 11 KN/m2 Bending 𝒍 6 𝒚 = =𝟏 𝒍 6 𝒙 The slab will be designed as two way slab, so 𝛽 = −0",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            27,
+            28
+          ],
+          "context": "5×30×500×80×(244−40)=110 𝐾𝑁.𝑚 𝑅 𝑐𝑢 𝑓 𝑓 2 ∴𝑁.𝐴. 𝑖𝑛 𝑓𝑙𝑎𝑛𝑔𝑒,𝑑𝑒𝑠𝑖𝑔𝑛 𝑎𝑠 𝑟𝑒𝑐𝑡𝑎𝑛𝑔𝑢𝑙𝑎𝑟 𝑠𝑒𝑐𝑖𝑜𝑛 b = 500 mm, d = 244 mm and 𝑓 =30 𝑁/𝑚𝑚2. 𝑐𝑢 𝑀 4.75×106 Section 3.4.4.4 𝐾 = = =0.005 𝑏𝑑2𝑓 𝑐𝑢 500×2442×30 𝐾 𝑧=𝑑{0.5+√(0.25− )}, z = 0.95d = 231.8 mm Z = 231.8 mm 0.9 𝑀 4.75×106 𝐴 = = = 46.89 𝑚𝑚2/𝑟𝑖𝑏 𝑆 0.95𝑓 𝑧 0.9",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            28
+          ],
+          "context": "v < v c , shear reinforcement is not required . Deflection 6000 basic span-effective depth ratio = = 24.6 244 Table 3.9 basic ratio = 20.8 Table 3.10 modification factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×47 𝑓 𝑠 = 3𝐴 × 𝛽 = 3×100.6 =143.3 𝑁/𝑚𝑚2 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 4.75×106 = =0.16 𝑏𝑑2 5",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.14",
+          "raw": "Table 3.14",
+          "pages": [
+            27,
+            28
+          ],
+          "context": "1.4 x 5 + 1.6 x 2.5 = 11 KN/m2 n = 11 KN/m2 Bending 𝒍 6 𝒚 = =𝟏 𝒍 6 𝒙 The slab will be designed as two way slab, so 𝛽 = −0.031 𝑎𝑛𝑑 𝛽 = 0.024 Table 3.14 𝑠𝑥 𝑠𝑥 1. At mid-span: 𝑚 =𝛽 𝑛𝑙 2 =0.024×11×62 =9.5 𝐾𝑁.𝑚/𝑚 𝑠𝑥 𝑠𝑥 𝑥 𝑚 𝑠𝑥 =9.5×0.5=4.75 𝐾𝑁.𝑚/𝑟𝑖𝑏 M = 4.75 KN.m Assume the cover = 20 mm. so for",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.15",
+          "raw": "Table 3.15",
+          "pages": [
+            28
+          ],
+          "context": "31.8 mm Z = 231.8 mm 0.9 𝑀 6.15×106 𝐴 𝑆 = 0.95𝑓 𝑧 = 0.95×460×231.8 = 60.7 𝑚𝑚2/𝑟𝑖𝑏 𝑦 Provide 2T8, area provided 100.6 mm2/rib Shear 𝛽 = 0.33 Table 3.15 𝑣𝑥 For one rib maximum design shear load = 𝛽 𝑣𝑥 𝑛𝑙 𝑥 = 0.33 x 11 x 6 x 0.5 = 10.9 KN 𝑉 10.9×1000 shear stress 𝑣 = = =0.3 N/mm2 𝑏×𝑑 150 ∗ 24",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            28
+          ],
+          "context": "𝑥 For one rib maximum design shear load = 𝛽 𝑣𝑥 𝑛𝑙 𝑥 = 0.33 x 11 x 6 x 0.5 = 10.9 KN 𝑉 10.9×1000 shear stress 𝑣 = = =0.3 N/mm2 𝑏×𝑑 150 ∗ 244 Table 3.8 100𝐴 100×100.6 𝑆 = =0.275 𝑏𝑑 150×244 ∴ 𝑣 =0.48 𝑁/𝑚𝑚2 𝑐 Since v < v c , shear reinforcement is not required . Deflection 6000 basic span-eff",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            28
+          ],
+          "context": "0×244 ∴ 𝑣 =0.48 𝑁/𝑚𝑚2 𝑐 Since v < v c , shear reinforcement is not required . Deflection 6000 basic span-effective depth ratio = = 24.6 244 Table 3.9 basic ratio = 20.8 Table 3.10 modification factor for tension reinforcement 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×47 𝑓 𝑠 = 3𝐴 × 𝛽 = 3×100.6 =143.3 𝑁/𝑚𝑚2 𝑆,𝑝",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 11,
+      "page_range": {
+        "start": 29,
+        "end": 30
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            29
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.10.2.2",
+          "raw": "Section 3.10.2.2",
+          "pages": [
+            30
+          ],
+          "context": "3×785 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 44×106 = =1.616 𝑏𝑑2 1000×1652 modification factor for tension reinforcement = (477−𝑓) 𝑠 =0.55+ =1.2866≤2 𝑀 120(0.9+ 𝑏𝑑2 ) Section 3.10.2.2 ∴ basic ratio = 20 × 1.2866 × 1.15 = 29.5895 Deflection OK actual ratio = 24.24 < basic ratio = 29.5895 23",
+          "inferred_purpose": "Deflection control guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            29
+          ],
+          "context": "= 20 4000 =200 𝑚𝑚, 𝑇𝑟𝑦 𝑎 200 𝑚𝑚 𝑡ℎ𝑖𝑐𝑘 𝑤𝑎𝑖𝑠𝑡 20 Assume the cover is 25 mm and the bar diameter is 10 mm. d = 200 – 25 – 10 = 165 mm Loading Section 3.2.1.2.2 Ultimate Load F = 1.4 × 10 + 1.6 × 5 = 22 KN/m/m width F = 22 KN/m Bending With no effective end restraint (simply supported). 𝑤𝑙2 22×42 𝑀",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            29
+          ],
+          "context": "1.6 × 5 = 22 KN/m/m width F = 22 KN/m Bending With no effective end restraint (simply supported). 𝑤𝑙2 22×42 𝑀 = = =44 𝐾𝑁.𝑚 𝑚𝑎𝑥 8 8 𝑀 44×106 Section 3.4.4.4 𝐾 = = =0.054 𝑏𝑑2𝑓 1000×1652×30 𝑐𝑢 𝐾 𝑧=𝑑{0.5+√(0.25− )}, z = 0.936d = 154.5 mm 0.9 𝑀 44×106 𝐴 = = = 651.7 𝑚𝑚2/𝑚 𝑆 0.95𝑓 𝑧 0.95×460×154.5 𝑦 P",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            30
+          ],
+          "context": "0× =260 𝑚𝑚2/𝑚 𝑠 100 100 provide T10 at 200 mm centres, area provided 393 mm2/m Shear maximum design shear load = 22 * 4 = 88 KN 𝑉 88×1000 𝑁 Section 3.4.5.2 𝑣 = = =0.533 <0.8√𝑓 𝑏×𝑑 1000×165 𝑚𝑚2 𝑐𝑢 0.79 100𝐴 1/3 400 1/4 𝑓 1/3 Table 3.8 𝑣 = ( 𝑆 ) ( ) ( 𝑐𝑢 ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 1 1 100𝐴 𝑆 3 100×785 3 ∴(",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.10",
+          "raw": "Table 3.10",
+          "pages": [
+            30
+          ],
+          "context": "basic span-effective depth ratio = = 24.24 Table 3.9 165 basic ratio = 20 (simply supported) modification factor for tension reinforcement Table 3.10 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×651.7 𝑓 = × = =254.6 𝑁/𝑚𝑚2 𝑠 3𝐴 𝛽 3×785 𝑆,𝑝𝑟𝑜𝑣 𝑏 𝑀 44×106 = =1.616 𝑏𝑑2 1000×1652 modification factor for tension reinf",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.25",
+          "raw": "Table 3.25",
+          "pages": [
+            30
+          ],
+          "context": "Mohamed Elhassan-Civil Engineering Department-UofK Transverse distribution reinforcement: Table 3.25 0.13𝑏ℎ 200 𝐴 = = 0.13×1000× =260 𝑚𝑚2/𝑚 𝑠 100 100 provide T10 at 200 mm centres, area provided 393 mm2/m Shear maximum design shear load = 2",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            30
+          ],
+          "context": "maximum design shear load = 22 * 4 = 88 KN 𝑉 88×1000 𝑁 Section 3.4.5.2 𝑣 = = =0.533 <0.8√𝑓 𝑏×𝑑 1000×165 𝑚𝑚2 𝑐𝑢 0.79 100𝐴 1/3 400 1/4 𝑓 1/3 Table 3.8 𝑣 = ( 𝑆 ) ( ) ( 𝑐𝑢 ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 1 1 100𝐴 𝑆 3 100×785 3 ∴( ) =( ) =0.78<3 , 𝑏𝑑 1000×165 1 1 400 4 400 4 ( ) =( ) =1.2478 (𝑠ℎ𝑜𝑢𝑙𝑑 𝑛𝑜𝑡 𝑏𝑒 𝑙",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.9",
+          "raw": "Table 3.9",
+          "pages": [
+            30
+          ],
+          "context": ".0626 25 ∴ 𝑣 𝑐 =0.6536 𝑁/𝑚𝑚2 Since v < v , shear reinforcement is not required c Deflection 4000 basic span-effective depth ratio = = 24.24 Table 3.9 165 basic ratio = 20 (simply supported) modification factor for tension reinforcement Table 3.10 2𝑓 𝑦 𝐴 𝑆,𝑟𝑒𝑞 1 2×460×651.7 𝑓 = × = =254.6",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        }
+      ]
+    },
+    {
+      "example_no": 12,
+      "page_range": {
+        "start": 31,
+        "end": 31
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            31
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.8.4.4",
+          "raw": "Section 3.8.4.4",
+          "pages": [
+            31
+          ],
+          "context": "2500 KN at the ultimate limit state. Find the steel area from: BS8110-1 required if grade 30 concrete and grade 460 reinforcement are used. Section 3.8.4.4 𝑁 =0.35𝑓 𝐴 +𝐴 (0.7𝑓 −0.35𝑓 ) 𝑐𝑢 𝑐 𝑠𝑐 𝑦 𝑐𝑢 2500000 = 0.35 × 30×4002+ 𝐴 𝑠𝑐 (0.7×460−0.35×30) 2 500 000−1 680 000 𝐴 𝑠𝑐 = 311.5 =2632.5 𝑚𝑚2 Pro",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        }
+      ]
+    },
+    {
+      "example_no": 13,
+      "page_range": {
+        "start": 32,
+        "end": 32
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            32
+          ],
+          "context": "0 mm cover, 8 mm for links and 25 mm for the main reinforcement. d = 400 – 20 – 8 - 25/2 = 359.5 mm d/h = 0.9 by using the chart No.29 form BS 8110-3 𝑁 1500×1000 = =9.375 𝑏ℎ 400×400 𝑀 150×106 = =2.34 𝑏ℎ2 400×4002 100𝐴 𝑠𝑐 =0.75 𝑏ℎ 0.75 𝐴 =400×400× =1200 𝑚𝑚2 𝑠𝑐 100 4T25 Provide 4T25. Area",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        }
+      ]
+    },
+    {
+      "example_no": 14,
+      "page_range": {
+        "start": 33,
+        "end": 33
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            33
+          ],
+          "context": "= =0.267 𝑏ℎ𝑓 500×500×30 𝑐𝑢 Table 3.22 ∴ by interpolation β = 0.6896 451 𝑀 ′ =100+0.6896× ×80=155.2 𝐾𝑁.𝑚 𝑥 451 by using the chart No.29 form BS 8110-3 𝑁 2000×1000 = =8 𝑏ℎ 500×500 𝑀 155.2×106 = =1.242 𝑏ℎ2 500×5002 100𝐴 𝑠𝑐 ∴ =0.4 𝑏ℎ 0.4 𝐴 =500×500× =1000 𝑚𝑚2 𝑠𝑐 100 Provide 4T25. Area steel",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.22",
+          "raw": "Table 3.22",
+          "pages": [
+            33
+          ],
+          "context": "h’ = d d/h = 0.9 Equation 40 𝑀 𝑥 100 = =0.222 ℎ′ 451 𝑀 80 𝑦 = =0.177 𝑏′ 451 𝑏′ 𝑀 ′ =𝑀 +𝛽 𝑀 𝑥 𝑥 ℎ′ 𝑦 𝑁 2000×1000 = =0.267 𝑏ℎ𝑓 500×500×30 𝑐𝑢 Table 3.22 ∴ by interpolation β = 0.6896 451 𝑀 ′ =100+0.6896× ×80=155.2 𝐾𝑁.𝑚 𝑥 451 by using the chart No.29 form BS 8110-3 𝑁 2000×1000 = =8 𝑏ℎ 500×500",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        }
+      ]
+    },
+    {
+      "example_no": 15,
+      "page_range": {
+        "start": 34,
+        "end": 35
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            34,
+            35
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "figure",
+          "id": "3.2",
+          "raw": "Figure 3.2",
+          "pages": [
+            34
+          ],
+          "context": "𝐾 = ≤1 𝑁 −𝑁 𝑢𝑧 𝑏𝑎𝑙 Equation 34 1 𝑙 𝑒 2 𝛽 = ( ) 𝑎 2000 𝑏′ Taking an initial value of K = 1.0 1500×500 8000 2 𝑀 = ( ) =384 𝐾𝑁.𝑚 𝑎𝑑𝑑 2000 250 Figure 3.2 The maximum design moment will be the greatest of: 1. M , 2 2. M + M , i add 3. M + M /2 1 add 4. e * N min 27",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        }
+      ]
+    },
+    {
+      "example_no": 16,
+      "page_range": {
+        "start": 36,
+        "end": 36
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            36
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            36
+          ],
+          "context": "s is 200 mm and the story height is 3m. Design the wall if grade 30 and 460 are to be used for concrete and all steel respectively. Loading Section 3.2.1.2.2 F = (1.4 x 30 + 1.6 x 15) x 5 = 990KN/m length c Equation 42 𝐹 𝑐 ≤0.35𝑓 𝑐𝑢 𝐴 𝑐 +0.67𝑓 𝑦 𝐴 𝑠𝑐 Table 3.25 Using min. area of steel required (",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.19",
+          "raw": "Table 3.19",
+          "pages": [
+            36
+          ],
+          "context": "3.2.1.2.2 Assume critical combination is (1.0 G + 1.4 w ) k k N = 1.0 x 30 x 5 x 3 = 450 KN M = 1.4 (25 x 15 + 50 x (12+9+6+3)) = 2625 KN.m Table 3.19 Referring to table 3.19 in the code the end conditions are condition 1 at top and bottom, so Assume the clear height = 2750 mm 0.75 x 2750",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "3.25",
+          "raw": "Table 3.25",
+          "pages": [
+            36
+          ],
+          "context": "steel respectively. Loading Section 3.2.1.2.2 F = (1.4 x 30 + 1.6 x 15) x 5 = 990KN/m length c Equation 42 𝐹 𝑐 ≤0.35𝑓 𝑐𝑢 𝐴 𝑐 +0.67𝑓 𝑦 𝐴 𝑠𝑐 Table 3.25 Using min. area of steel required (0.004 A ) c =0.35×30×103×200+0.67×460×103×200×0.004 =2346.6 𝐾𝑁/𝑚 OK Section 3.2.1.2.2 Assume critical co",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        }
+      ]
+    },
+    {
+      "example_no": 17,
+      "page_range": {
+        "start": 37,
+        "end": 38
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            37
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            37
+          ],
+          "context": "e load = 1000 + 500 + 100 = 1600 KN Base area = 1600 / 300 = 5.33 m2 Let the base area = 2.4 m x 2.4 m Base area provided = 5.76 m2 Bending Section 3.2.1.2.2 ultimate load=1.4×1000+1.6×500=2200 KN ultimate pressure=2200÷5.76=382 KN/m2 The critical section XX at the column face is shown in the fig",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            37
+          ],
+          "context": "=382×0.95×2.4× =413.7 KN.m xx 2 Try overall depth of 550 mm with 16 mm bars. The effective depth d = 550 – 50 – 16 – 8 = 476 mm M 413.7×106 Section 3.4.4.4 = =0.0217 bd2f 2400 × 4762×35 cu K z=d{0.5+√(0.25− )}, 0.9 z=0.95d=452.2 mm M 413.7×106 A S = 0.95f z = 0.95×460×452.2 = 2093.5 mm2 y Provi",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            38
+          ],
+          "context": "Mohamed Elhassan-Civil Engineering Department-UofK V=382×2.4×0.474=434.56 KN V 434.56×1000 N Section 3.4.5.2 Shear stress v = = = 0.38 <0.8√𝑓 b×d 2400×476 mm2 𝑐𝑢 Table 3.8 0.79 100𝐴 𝑆 1/3 400 1/4 𝑓 𝑐𝑢 1/3 𝑣 = ( ) ( ) ( ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 1 1 100𝐴 𝑆 3",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.2",
+          "raw": "Table 3.2",
+          "pages": [
+            37
+          ],
+          "context": "300 KN/m2. The concrete is grade 35 and the reinforcement is grade 460. The condition of exposure is moderate for non-aggressive soil. Take Table 3.2 the cover 50 mm. Size of base Assume the base weight = 100 KN Service load = 1000 + 500 + 100 = 1600 KN Base area = 1600 / 300 = 5.33 m2 Le",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            38
+          ],
+          "context": "Engineering Department-UofK V=382×2.4×0.474=434.56 KN V 434.56×1000 N Section 3.4.5.2 Shear stress v = = = 0.38 <0.8√𝑓 b×d 2400×476 mm2 𝑐𝑢 Table 3.8 0.79 100𝐴 𝑆 1/3 400 1/4 𝑓 𝑐𝑢 1/3 𝑣 = ( ) ( ) ( ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 1 1 100𝐴 𝑆 3 100×2412 3 ∴( ) =( ) =0.595<3 , 𝑏𝑑 2400×476 1 1 400 4 400 4 ( )",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        }
+      ]
+    },
+    {
+      "example_no": 18,
+      "page_range": {
+        "start": 39,
+        "end": 40
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            39
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            39
+          ],
+          "context": "load Moment pressure P= ± base area modulus Z Area=bl Z=bl2/6 1600 68 KN P = + =282.12 <𝑏𝑒𝑎𝑟𝑖𝑛𝑔 𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑦 𝑂𝐾 max 6.25 2.5×2.52/6 m2 Bending Section 3.2.1.2.2 ultimate load=1.4×1000+1.6×500=2200 KN ultimate moment =1.4×44+1.6×24=100 KN.m 2200 100 ultimate pressure= 6.25 + 2.53/6 =390.4 KN/m2 The c",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.5.2",
+          "raw": "Section 3.4.5.2",
+          "pages": [
+            40
+          ],
+          "context": "hear The critical section YY at distance d from the column face as shown in the figure above. V=390.4×2.5×0.424=413.824 KN V 413.824×1000 N Section 3.4.5.2 Shear stress v = = = 0.287 <0.8√𝑓 b×d 2500×576 mm2 𝑐𝑢 Table 3.8 0.79 100𝐴 𝑆 1/3 400 1/4 𝑓 𝑐𝑢 1/3 𝑣 = ( ) ( ) ( ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 1 1 100𝐴 𝑆 3",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3.2",
+          "raw": "Table 3.2",
+          "pages": [
+            39
+          ],
+          "context": "ity is 300 KN/m2. The concrete is grade 35 and the reinforcement is grade 460. Vertical load (KN) Moment (KN.m) Dead 1000 44 Imposed 500 24 Table 3.2 The condition of exposure is moderate for non-aggressive soil. Take the cover 50 mm. Size of base Assume the base weight = 100 KN Total axi",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            40
+          ],
+          "context": "wn in the figure above. V=390.4×2.5×0.424=413.824 KN V 413.824×1000 N Section 3.4.5.2 Shear stress v = = = 0.287 <0.8√𝑓 b×d 2500×576 mm2 𝑐𝑢 Table 3.8 0.79 100𝐴 𝑆 1/3 400 1/4 𝑓 𝑐𝑢 1/3 𝑣 = ( ) ( ) ( ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 1 1 100𝐴 𝑆 3 100×2010 3 ∴( ) =( ) =0.519<3 , 𝑏𝑑 2500×576 1 1 400 4 400 4 ( )",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        }
+      ]
+    },
+    {
+      "example_no": 19,
+      "page_range": {
+        "start": 41,
+        "end": 49
+      },
+      "references": [
+        {
+          "type": "code",
+          "id": "BS 8110",
+          "raw": "BS 8110",
+          "pages": [
+            41,
+            44,
+            45,
+            46,
+            48
+          ],
+          "context": "",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.2.1.2.2",
+          "raw": "Section 3.2.1.2.2",
+          "pages": [
+            41
+          ],
+          "context": "= 2750 KN Base area = 2750 / 300 = 9.167 m2 Assume base length = 4.6 m Therefore, the base width = 2 m Base area provided = 9.2 m2 Bending Section 3.2.1.2.2 ultimate load=1.4×1000×2+1.6×300×2=3760 KN 34",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "section",
+          "id": "3.4.4.4",
+          "raw": "Section 3.4.4.4",
+          "pages": [
+            42
+          ],
+          "context": ": Try overall depth of 700 mm with 16 mm bars. The effective depth d = 700 – 50 – 16 – 8 = 626 mm 1. Mid-span between the columns M 658×106 Section 3.4.4.4 = =0.024 bd2f 2000 × 6262×35 cu K z=d{0.5+√(0.25− )}, 0.9 z=0.95d=594.7 mm M 658×106 A S = 0.95f z = 0.95×460×594.7 = 2531.9 mm2 y Provide",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "1",
+          "raw": "Table 1",
+          "pages": [
+            44
+          ],
+          "context": "Appendix: Selected tables from BS 8110 Table 1 Form and area of shear reinforcement in beams (table 3.7 of BS 8110) Form of shear reinforcement Area of shear reinforcement Value of v (N/",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "10",
+          "raw": "Table 10",
+          "pages": [
+            48
+          ],
+          "context": "Table 10 Shear force coefficients for rectangular panels supported on four sides with provision for tension at corners (table 3.15 of BS 8110) 𝜷 Val",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "11",
+          "raw": "Table 11",
+          "pages": [
+            48
+          ],
+          "context": "edge 0.29 0.33 0.36 0.38 0.40 0.42 0.45 0.48 0.30 Four edges discontinuous Discontinuous edge 0.33 0.36 0.39 0.41 0.43 0.45 0.48 0.50 0.33 Table 11 Bending moment coefficients for slab spanning in two directions at right angles, simply supported on four sides (table 3.13 of BS 8110) 𝒍 /",
+          "inferred_purpose": "Moment coefficients / redistribution reference"
+        },
+        {
+          "type": "table",
+          "id": "2",
+          "raw": "Table 2",
+          "pages": [
+            44
+          ],
+          "context": "inimum links provide a design shear resistance of 0.4 N/mm2. 3 See Cl.3.4.5.5 of BS 8110 for guidance on spacing of links and bent-up bars. Table 2 Values of design concrete shear strength, V (N/mm2) (table 3.8 of BS 8110) c 𝟏𝟎𝟎𝑨 Effective depth (mm) 𝒔 𝒃 𝒗 𝒅 125 150 175 200 225 250 300",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "3",
+          "raw": "Table 3",
+          "pages": [
+            44
+          ],
+          "context": "eater than 25 N/mm2, the values in this table may be multiplied by (f cu /25)1/2. The value of f cu should not be taken as greater than 40. Table 3 Basic span/effective depth ratio (table 3.9 of BS 8110) Support conditions Rectangular section Flanged beams with 𝒃 /𝐛≤𝟎.𝟑 𝒘 Cantilever 7 5",
+          "inferred_purpose": "Span-to-effective-depth / sizing check"
+        },
+        {
+          "type": "table",
+          "id": "3.2",
+          "raw": "Table 3.2",
+          "pages": [
+            41
+          ],
+          "context": "e reinforcement is grade 460. Take the distance between column equal to 3 m. Column one Column two Dead (KN) 1000 1000 Imposed (KN) 300 300 Table 3.2 The condition of exposure is moderate for non-aggressive soil. Take the cover 50 mm. Size of base Assume the base weight = 150 KN Total axi",
+          "inferred_purpose": "Durability: cover/exposure guidance"
+        },
+        {
+          "type": "table",
+          "id": "3.8",
+          "raw": "Table 3.8",
+          "pages": [
+            43
+          ],
+          "context": "m face of support: V=1266.08−(407.7×2×0.2)−(408.7×2×0.626)=590.8 KN V 590.8×1000 v = b×d = 2000×626 =0.47 N/mm2 0.79 100𝐴 1/3 400 1/4 𝑓 1/3 Table 3.8 𝑣 = ( 𝑆 ) ( ) ( 𝑐𝑢 ) 𝑐 𝛾 𝑏𝑑 𝑑 25 𝑚 1 1 100𝐴 𝑆 3 100×1340 3 ∴( ) =( ) =0.475<3 , 𝑏𝑑 2000×626 1 1 400 4 400 4 ( 𝑑 ) =( 626 ) =0.894 >0.67 𝑓 1",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "4",
+          "raw": "Table 4",
+          "pages": [
+            45
+          ],
+          "context": "Table 4 Modification factor for tension reinforcement (table 3.10 of BS 8110) 𝑴/𝒃𝒅𝟐 Service stress 0.5 0.75 1.0 1.5 2.0 3.0 4.0 5.0 6.0 100 2.00 2.",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "5",
+          "raw": "Table 5",
+          "pages": [
+            45
+          ],
+          "context": ".75 0.72 𝑦 Note: The design service stress in the tension reinforcement may be estimated from the equation 2𝑓 𝐴 𝑦 𝑠,𝑟𝑒𝑞 𝑓 = 𝑠 3𝐴 𝛽 𝑠,𝑝𝑟𝑜𝑣 𝑏 Table 5 Modification factor for compression reinforcement (table 3.11 of BS 8110) 𝟏𝟎𝟎𝑨 /𝒃𝒅 Factor 𝒔,𝒑𝒓𝒐𝒗 0 1.00 0.15 1.05 0.25 1.08 0.35 1.10 0.50",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "6",
+          "raw": "Table 6",
+          "pages": [
+            45
+          ],
+          "context": "S 8110) 𝟏𝟎𝟎𝑨 /𝒃𝒅 Factor 𝒔,𝒑𝒓𝒐𝒗 0 1.00 0.15 1.05 0.25 1.08 0.35 1.10 0.50 1.14 0.75 1.20 1.00 1.25 1.50 1.33 2.00 1.40 2.50 1.45 ≥ 3.00 1.50 Table 6 Form and area of shear reinforcement in solid slab (table 3.16 of BS 8110) Form of shear reinforcement Area of shear reinforcement Value of",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "7",
+          "raw": "Table 7",
+          "pages": [
+            46
+          ],
+          "context": "Table 7 Minimum percentages of reinforcement (table 3.25 of BS 8110) Minimum percentage Definition of Situation fy = 250 fy = 460 percentage N/mm2",
+          "inferred_purpose": "Referenced in worked step (see context)"
+        },
+        {
+          "type": "table",
+          "id": "8",
+          "raw": "Table 8",
+          "pages": [
+            46
+          ],
+          "context": "n flanges or flanged beams (provided over full effective flange width near top surface to resist horizontal shear) 100𝐴 /ℎ 𝑙 0.15 0.15 𝑠𝑡 𝑓 Table 8 Values of B for braced and unbraced columns (table 3.19 and 3.20 of BS 8110) Values of 𝜷 for braced columns Values of 𝜷 for unbraced column",
+          "inferred_purpose": "Shear check / shear reinforcement sizing"
+        },
+        {
+          "type": "table",
+          "id": "9",
+          "raw": "Table 9",
+          "pages": [
+            47
+          ],
+          "context": "Table 9 Bending moment coefficients for rectangular panels supported on four sides with provision for torsion at corners (table 3.14 BS 810) Long s",
+          "inferred_purpose": "Moment coefficients / redistribution reference"
+        }
+      ]
+    }
+  ],
+  "supplemental_loading_references": [
+    {
+      "code_or_standard": "BS 6399-1 (Loading for buildings — Part 1: dead and imposed loads)",
+      "used_for": [
+        "Selecting characteristic imposed (live) loads for floors by occupancy (residential, offices, assembly, corridors, stairs).",
+        "Selecting dead load allowances for finishes/partitions when not calculated explicitly."
+      ],
+      "how_it_fits_bs8110_worked_examples_scope": "BS 8110 is a concrete design code; load values are typically taken from a loading code such as BS 6399, then actions are factored for ULS/SLS and used in BS 8110 member design."
+    },
+    {
+      "code_or_standard": "BS 6399-2 (Loading for buildings — Part 2: wind loads)",
+      "used_for": [
+        "Determining wind actions (pressure/suction) on building frames, slabs/roofs and cladding support members.",
+        "Creating lateral load cases for frame analysis prior to BS 8110 member design."
+      ],
+      "how_it_fits_bs8110_worked_examples_scope": "Use when the worked examples are extended from gravity-only members to full building design where wind governs lateral actions."
+    },
+    {
+      "code_or_standard": "BS 6399-3 (Loading for buildings — Part 3: imposed roof loads)",
+      "used_for": [
+        "Selecting roof imposed loads (maintenance) and, where relevant, snow-related roof loads in BS 6399 methodology.",
+        "Combining roof imposed actions with dead loads for roof beams, purlin-supporting members, and roof slabs."
+      ],
+      "how_it_fits_bs8110_worked_examples_scope": "Use when extending beam/slab examples to roof members (even if roof is not a concrete slab)."
+    },
+    {
+      "code_or_standard": "BS EN 1991-1-1 (Eurocode 1 actions — densities, self-weight, imposed loads)",
+      "used_for": [
+        "Modern alternative to BS 6399 in many jurisdictions; provides densities and imposed loads for buildings."
+      ],
+      "how_it_fits_bs8110_worked_examples_scope": "If your school allows Eurocode actions, you can still design RC members with BS 8110 using EC1 characteristic actions (with careful factor consistency)."
+    }
+  ]
+}

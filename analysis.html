@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structural Analysis & Calculations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <style>
+        :root {
+            --bg-color: #1e1e1e;
+            --panel-color: #2a2a2a;
+            --border-color: #444;
+            --text-color: #e0e0e0;
+            --accent-color: #0d6efd;
+            --secondary-color: #6c757d;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .back-btn {
+            background: var(--panel-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .back-btn:hover {
+            background: #333;
+        }
+
+        .section {
+            background: var(--panel-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.25rem;
+            color: #fff;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .data-table th,
+        .data-table td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .data-table th {
+            background: #222;
+            color: #aaa;
+            font-weight: 500;
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .data-table tr:hover {
+            background: #333;
+        }
+
+        .tag {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .tag-primary {
+            background: rgba(13, 110, 253, 0.2);
+            color: #6ea8fe;
+        }
+
+        .tag-secondary {
+            background: rgba(108, 117, 125, 0.2);
+            color: #a7acb1;
+        }
+
+        .tag-hidden {
+            background: rgba(255, 193, 7, 0.1);
+            color: #ffca2c;
+            opacity: 0.7;
+        }
+
+        .summary-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: #333;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        #floor-title {
+            color: var(--accent-color);
+        }
+
+        /* Table Inputs */
+        .tbl-input {
+            background: #222;
+            border: 1px solid #444;
+            color: white;
+            padding: 4px;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+
+        .tbl-input:focus {
+            border-color: var(--accent-color);
+            outline: none;
+        }
+
+        select.tbl-input {
+            cursor: pointer;
+        }
+
+        /* Floor Switcher */
+        .floor-switcher {
+            display: flex;
+            background: #333;
+            border-radius: 4px;
+            padding: 4px;
+            gap: 4px;
+            border: 1px solid #444;
+        }
+
+        .floor-btn {
+            background: transparent;
+            border: none;
+            color: #aaa;
+            padding: 6px 12px;
+            cursor: pointer;
+            border-radius: 3px;
+            transition: all 0.2s;
+        }
+
+        .floor-btn:hover {
+            color: white;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .floor-btn.active {
+            background: var(--accent-color);
+            color: white;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div style="display:flex; flex-direction:column; gap:8px;">
+                <div>
+                    <h1>Structural Calculations</h1>
+                    <p style="margin:2px 0; font-size:0.9em; color:#888;">Analysis for Task: <span
+                            id="task-display">...</span></p>
+                </div>
+
+                <div class="floor-switcher">
+                    <button id="btn-show-gf" class="floor-btn" onclick="switchFloor('GF')">Ground Floor</button>
+                    <button id="btn-show-ff" class="floor-btn" onclick="switchFloor('FF')">First Floor</button>
+                </div>
+            </div>
+
+            <div style="display:flex; gap:10px; align-items:center;">
+                <button id="btn-report" class="back-btn" style="background:#007bff; border-color:#007bff; color:white;">
+                    <ion-icon name="document-text-outline"></ion-icon> Load Report
+                </button>
+                <button id="btn-save-analysis" class="back-btn"
+                    style="background:#28a745; border-color:#28a745; color:white;">
+                    <ion-icon name="save-outline"></ion-icon> Save Changes
+                </button>
+                <a href="index.html" class="back-btn"><ion-icon name="arrow-back-outline"></ion-icon> Back to
+                    Drafting</a>
+            </div>
+        </header>
+
+        <!-- DESIGN SETTINGS PANEL -->
+        <div class="section" style="background: #222; border: 1px solid #444;">
+            <h2 style="font-size: 1.1rem; border-color: #555;">Design Constants <ion-icon name="settings-outline"
+                    style="font-size: 1em; vertical-align: middle;"></ion-icon></h2>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 15px;">
+                <div>
+                    <label class="stat-label">Slab Thickness (m)</label>
+                    <input type="number" id="set-slab-thick" class="tbl-input" value="0.15" step="0.01">
+                </div>
+                <div>
+                    <label class="stat-label">Finish Load (kN/m²)</label>
+                    <input type="number" id="set-finish" class="tbl-input" value="1.5" step="0.1">
+                </div>
+                <div>
+                    <label class="stat-label">Live Load (kN/m²)</label>
+                    <input type="number" id="set-live" class="tbl-input" value="1.5" step="0.1">
+                </div>
+                <div>
+                    <label class="stat-label">Conc. Density (kN/m³)</label>
+                    <input type="number" id="set-density" class="tbl-input" value="24" step="1">
+                </div>
+                <div>
+                    <label class="stat-label">Beam Width (m)</label>
+                    <input type="number" id="set-beam-w" class="tbl-input" value="0.23" step="0.01">
+                </div>
+                <div>
+                    <label class="stat-label">Beam Depth (m)</label>
+                    <input type="number" id="set-beam-d" class="tbl-input" value="0.45" step="0.01">
+                </div>
+                <div>
+                    <label class="stat-label">Concrete fcu (N/mm²)</label>
+                    <input type="number" id="set-fcu" class="tbl-input" value="25" step="5">
+                </div>
+                <div>
+                    <label class="stat-label">Main Steel fy (N/mm²)</label>
+                    <input type="number" id="set-fy" class="tbl-input" value="460" step="10">
+                </div>
+                <div>
+                    <label class="stat-label">Link Steel fyv (N/mm²)</label>
+                    <input type="number" id="set-fyv" class="tbl-input" value="250" step="10">
+                </div>
+                <div>
+                    <label class="stat-label">Nominal Cover (mm)</label>
+                    <input type="number" id="set-cover" class="tbl-input" value="25" step="5">
+                </div>
+            </div>
+        </div>
+
+        <div class="summary-stats">
+            <div class="stat-card">
+                <div class="stat-val" id="total-beams">0</div>
+                <div class="stat-label">Total Beams</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val" id="total-slabs">0</div>
+                <div class="stat-label">Total Slabs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val" id="total-area">0 m²</div>
+                <div class="stat-label">Total Floor Area</div>
+            </div>
+        </div>
+
+        <!-- BEAMS SECTION -->
+        <div class="section">
+            <h2>Beam Schedule</h2>
+            <div style="overflow-x: auto;">
+                <table class="data-table" id="beam-table">
+                    <thead>
+                        <tr>
+                            <th width="10%">ID</th>
+                            <th width="15%">Type</th>
+                            <th width="20%">Length (m)</th>
+                            <th width="30%">Location (Grid Ref)</th>
+                            <th width="25%">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5" style="text-align:center; color:#666;">Loading data...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- SLABS SECTION -->
+        <div class="section">
+            <h2>Slab Schedule</h2>
+            <div style="overflow-x: auto;">
+                <table class="data-table" id="slab-table">
+                    <thead>
+                        <tr>
+                            <th width="10%">ID</th>
+                            <th width="20%">Dimensions (m)</th>
+                            <th width="20%">Area (m²)</th>
+                            <th width="30%">Support Type</th>
+                            <th width="20%">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5" style="text-align:center; color:#666;">Loading data...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="analysis.js"></script>
+</body>
+
+</html>

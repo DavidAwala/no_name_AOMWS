@@ -1,0 +1,270 @@
+/* Modern Dark CAD Theme */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Header */
+header {
+    background: #1e1e1e;
+    padding: 10px 20px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+}
+
+.badge {
+    background: #FFD700;
+    color: #000;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+}
+
+.badge-slab {
+    background: #007bff;
+    color: white;
+}
+
+.badge-unsupported {
+    background: #dc3545;
+    color: white;
+}
+
+.badge-one-way {
+    background: #28a745;
+    color: white;
+}
+
+.badge-two-way {
+    background: #17a2b8;
+    color: white;
+}
+
+.badge-cantilever {
+    background: #fd7e14;
+    color: white;
+}
+
+.header-controls {
+    display: flex;
+    gap: 5px;
+}
+
+.icon-btn {
+    background: #333;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.icon-btn:hover {
+    background: #444;
+}
+
+/* Workspace */
+.workspace {
+    display: flex;
+    flex: 1;
+    overflow: scroll;
+}
+
+.toolbar {
+    width: 260px;
+    min-width: 260px;
+    background: #1e1e1e;
+    border-right: 1px solid #333;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tool-section {
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+.tool-section h3 {
+    font-size: 0.8rem;
+    color: #888;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tool-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid transparent;
+    background: #2a2a2a;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tool-btn:hover {
+    background: #333;
+}
+
+.tool-btn.active {
+    background: #007bff;
+    border-color: #0056b3;
+    color: white;
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.input-group input {
+    width: 70px;
+    background: #111;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.toggle-row {
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.action-btn {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.secondary-btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: visible;
+}
+
+/* Always show edit controls if result exists? logic will handle */
+
+/* Canvas Scroller */
+.canvas-scroller {
+    flex: 1;
+    display: flex;
+    overflow-x: auto;
+    /* Horizontal Scroll */
+    overflow-y: hidden;
+    background: #111;
+    padding: 20px;
+    gap: 20px;
+    height: 50rem;
+}
+
+.floor-block {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    /* Force distinct blocks */
+    height: 40rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background: #181818;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.floor-block.active-ctx {
+    border-color: #007bff;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+}
+
+.floor-header {
+    background: #222;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.floor-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.file-mini {
+    font-size: 0.8rem;
+    color: #888;
+    width: 200px;
+}
+
+.konva-box {
+    flex: 1;
+    position: relative;
+    background: #161616;
+    /* Grid Pattern */
+    background-image: radial-gradient(circle, #333 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.tips {
+    font-size: 0.75rem;
+    color: #666;
+    padding: 10px;
+    border-radius: 6px;
+}

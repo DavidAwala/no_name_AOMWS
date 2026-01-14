@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structural Game - CAD Drafting</title>
+    <script src="https://unpkg.com/konva@9.2.0/konva.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Structural Game <span class="badge">Dual Canvas</span></h1>
+            <div class="header-controls">
+                <button onclick="document.getElementById('help-modal').style.display='flex'" class="icon-btn"
+                    title="Help">
+                    <ion-icon name="help-circle-outline"></ion-icon>
+                </button>
+                <button id="btn-undo" class="icon-btn" title="Undo"><ion-icon name="arrow-undo"></ion-icon></button>
+                <button id="btn-redo" class="icon-btn" title="Redo"><ion-icon name="arrow-redo"></ion-icon></button>
+            </div>
+        </header>
+
+        <main class="workspace">
+            <aside class="toolbar">
+                <div class="tips" style="background:#007bff22; border:1px solid #007bff; margin-bottom:15px;">
+                    <p id="floor-indicator" style="color:#fff; font-weight:bold;">Active: Ground Floor</p>
+                    <p>Click a canvas to activate.</p>
+                </div>
+
+                <div class="tool-section">
+                    <h3>1. Setup</h3>
+                    <button id="btn-scale" class="tool-btn" data-tool="scale">
+                        <ion-icon name="git-compare-outline"></ion-icon> Set Scale
+                    </button>
+                    <div id="scale-display">Scale: <span id="scale-val">Unset</span></div>
+                </div>
+
+                <div class="tool-section">
+                    <h3>2. Draw</h3>
+                    <div class="input-group">
+                        <label>Thickness (mm):</label>
+                        <input type="number" id="wall-thickness" value="230" step="10">
+                    </div>
+                    <button class="tool-btn" data-tool="wall">
+                        <ion-icon name="remove-outline"></ion-icon> Wall (Polyline)
+                    </button>
+                    <button class="tool-btn" data-tool="door">
+                        <ion-icon name="cut-outline"></ion-icon> Door (Cut)
+                    </button>
+                    <button class="tool-btn" data-tool="stair">
+                        <ion-icon name="layers-outline"></ion-icon> Stair (Void)
+                    </button>
+                </div>
+
+                <div class="tool-section">
+                    <h3>3. Aids</h3>
+                    <label class="toggle-row">
+                        <input type="checkbox" id="toggle-ortho" checked> Ortho Mode
+                    </label>
+                    <label class="toggle-row">
+                        <input type="checkbox" id="toggle-snap" checked> Smart Snap
+                    </label>
+                </div>
+
+                <div class="tool-section">
+                    <h3>4. Structure</h3>
+                    <button id="btn-analyze" class="action-btn">Generate All</button>
+
+                    <div id="prop-inspector" class="hidden"
+                        style="background:#333; padding:10px; margin-top:10px; border-radius:4px;">
+                        <h4 style="margin:0 0 5px 0; color:#fff;">Properties</h4>
+                        <div class="prop-inspector-content">
+                            <h4>Properties</h4>
+                            <label>ID: <input type="text" id="prop-id" /></label>
+                            <label>Type:
+                                <select id="prop-type">
+                                    <option value="Primary">Primary</option>
+                                    <option value="Secondary">Secondary</option>
+                                    <option value="Hidden">Hidden</option>
+                                </select>
+                            </label>
+                            <label>X: <input type="number" id="prop-x" /></label>
+                            <label>Y: <input type="number" id="prop-y" /></label>
+                            <label>Rotation: <input type="number" id="prop-rotation" /></label>
+                            <div id="multi-info" style="display:none; color:#ffa500; font-size:0.9em;">
+                                ※ Editing <span id="multi-count">0</span> items
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="edit-controls" class="hidden">
+                        <hr style="margin: 10px 0; border: 0; border-top: 1px solid #444;">
+                        <h4>Editing</h4>
+                        <div class="tool-grid">
+                            <button class="tool-btn" data-tool="select" title="Select & Rotate">
+                                <ion-icon name="hand-right-outline"></ion-icon> Select
+                            </button>
+                            <button class="tool-btn" data-tool="delete-struct" title="Delete Item">
+                                <ion-icon name="trash-outline"></ion-icon> Delete
+                            </button>
+                            <button class="tool-btn" data-tool="add-col" title="Add Column">
+                                <ion-icon name="square-outline"></ion-icon> + Col
+                            </button>
+                            <button class="tool-btn" data-tool="add-beam" title="Add Beam">
+                                <ion-icon name="resize-outline"></ion-icon> + Beam
+                            </button>
+                            <button class="tool-btn" data-tool="add-slab" title="Draw Slab Rectangle">
+                                <ion-icon name="grid-outline"></ion-icon> + Slab
+                            </button>
+                            <button class="tool-btn" data-tool="delete-slab" title="Delete Slab">
+                                <ion-icon name="close-circle-outline"></ion-icon> - Slab
+                            </button>
+                        </div>
+                        <div style="display:flex; gap:10px; margin-top:5px;">
+                            <button id="btn-merge" class="action-btn" style="background: #17a2b8; flex:1;">
+                                <ion-icon name="git-merge-outline"></ion-icon> Merge
+                            </button>
+                            <button id="btn-open-analysis" class="action-btn" style="background: #6610f2; flex:1;">
+                                <ion-icon name="calculator-outline"></ion-icon> Report
+                            </button>
+                        </div>
+                        <button id="btn-save-struct" class="action-btn" style="background: #28a745; margin-top:10px;">
+                            <ion-icon name="save-outline"></ion-icon> Save Changes
+                        </button>
+                    </div>
+                    <button id="btn-clear" class="secondary-btn">Clear Active Floor</button>
+                </div>
+            </aside>
+
+            <!-- Scrollable Canvas Area -->
+            <section class="canvas-scroller" id="scroller">
+
+                <!-- GF Block -->
+                <div class="floor-block" id="block-gf">
+                    <div class="floor-header">
+                        <h3>Ground Floor</h3>
+                        <input type="file" id="upload-gf" accept="image/*" class="file-mini">
+                    </div>
+                    <div id="holder-gf" class="konva-box"></div>
+                </div>
+
+                <!-- FF Block -->
+                <div class="floor-block" id="block-ff">
+                    <div class="floor-header">
+                        <h3>First Floor</h3>
+                        <input type="file" id="upload-ff" accept="image/*" class="file-mini">
+                    </div>
+                    <div id="holder-ff" class="konva-box"></div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <script src="drafting.js" type="module"></script>
+    <!-- Help Modal -->
+    <div id="help-modal"
+        style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); align-items:center; justify-content:center; z-index:9999;">
+        <div style="background:#222; padding:30px; border-radius:8px; max-width:500px; color:#ddd; position:relative;">
+            <button onclick="document.getElementById('help-modal').style.display='none'"
+                style="position:absolute; top:10px; right:10px; background:none; border:none; color:#fff; cursor:pointer; font-size:24px;">&times;</button>
+            <h2 style="margin-top:0;">Grid & Tools Help</h2>
+            <ul style="line-height:1.6;">
+                <li><strong>Select:</strong> Click item. Hold <code>Shift</code> for Multi-Select. Drag on empty space
+                    for Box-Select.</li>
+                <li><strong>Pan:</strong> Click middle mouse button or Space+Drag.</li>
+                <li><strong>Zoom:</strong> Mouse Wheel.</li>
+                <li><strong>Delete:</strong> Select item(s) and press <code>Delete</code> key.</li>
+                <li><strong>Undo/Redo:</strong> <code>Ctrl+Z</code> / <code>Ctrl+Y</code> (or buttons).</li>
+                <li><strong>Wall Tool:</strong> Click points. Double-click to finish.</li>
+                <li><strong>Door Tool:</strong> Click on a wall to insert door/opening.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
