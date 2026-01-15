@@ -995,7 +995,7 @@ async function submitAll() {
     }
 
     try {
-        const r = await fetc(`${port_url}/api/analyze`, {
+        const r = await fetch(`${port_url}/api/analyze`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
